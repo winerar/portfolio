@@ -1,20 +1,28 @@
+import { Container } from "react-bootstrap"
 import Brand from "./Brand"
 import Contribution from "./Contribution"
 import NavList from "./NavList"
-import NavbarToggler from "./NavbarToggler"
+import BsNavbar from "react-bootstrap/Navbar"
 
 const Navbar: React.FC = (): JSX.Element => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark fixed-top">
-			<div className="container flex-lg-column">
+		<BsNavbar fixed="top" expand="lg" className="navbar-dark">
+			<Container className="container flex-lg-column">
 				<Brand />
-				<NavbarToggler />
-				<div className="collapse navbar-collapse" id="navbarNav">
+				<BsNavbar.Toggle
+					data-toggle="collapse"
+					data-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					label="Toggle navigation"
+					className="border-0"
+				/>
+				<BsNavbar.Collapse id="navbarNav">
 					<NavList />
-				</div>
-			</div>
+				</BsNavbar.Collapse>
+			</Container>
 			<Contribution />
-		</nav>
+		</BsNavbar>
 	)
 }
 
