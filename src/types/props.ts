@@ -15,11 +15,6 @@ export interface IServiceCardProps {
 	index?: number
 }
 
-export interface INavItemProps {
-	name: string
-	path: string
-}
-
 export interface ISectionHeaderProps {
 	title: string
 	subtitle: string

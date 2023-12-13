@@ -1,6 +1,6 @@
-import { INavItemProps } from "../types"
+import { INavLink } from "../types"
 
-export const navLinks: Array<INavItemProps> = [
+export const navLinks: Array<INavLink> = [
 	{
 		name: "Home",
 		path: "#home",
