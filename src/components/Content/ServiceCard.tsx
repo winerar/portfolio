@@ -1,13 +1,11 @@
 import React from "react"
 import { IServiceCardProps } from "../../types"
 import Card from "../common/Card"
-import ExternalLink from "../common/ExternalLink"
 
 const ServiceCard: React.FC<IServiceCardProps> = ({
 	name,
 	Icon,
 	description,
-	link,
 	index = 0,
 }): JSX.Element => {
 	return (
@@ -16,8 +14,7 @@ const ServiceCard: React.FC<IServiceCardProps> = ({
 				<Icon className="icon" />
 			</div>
 			<h5 className="mt-4 mb-2">{name}</h5>
-			<p>{description}</p>
-			<ExternalLink text="Read more" link={link} />
+			<p className="mb-0">{description}</p>
 		</Card>
 	)
 }

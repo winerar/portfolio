@@ -9,14 +9,7 @@ const Services: React.FC = (): JSX.Element => {
 			<SectionHeader title="Services That I Provide" subtitle="Services" />
 			<div className="row row-gap-4">
 				{services.map((item, index) => (
-					<ServiceCard
-						name={item.name}
-						description={item.description}
-						Icon={item.Icon}
-						link={item.link}
-						index={index}
-						key={index}
-					/>
+					<ServiceCard index={index} {...item} key={index} />
 				))}
 			</div>
 		</Section>

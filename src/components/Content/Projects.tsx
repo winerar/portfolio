@@ -9,14 +9,7 @@ const Projects = () => {
 			<SectionHeader title="My Recent Projects" subtitle="Work" />
 			<div className="row row-gap-4">
 				{projects.map((project, index) => (
-					<ProjectCard
-						name={project.name}
-						description={project.description}
-						image={project.image}
-						repo={project.repo}
-						index={index}
-						key={index}
-					/>
+					<ProjectCard index={index} {...project} key={index} />
 				))}
 			</div>
 		</Section>

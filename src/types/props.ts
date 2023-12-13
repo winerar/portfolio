@@ -1,5 +1,5 @@
 import { FunctionComponent, ReactNode, SVGProps } from "react"
-import { IBlogPost, IExperience, IReview } from "."
+import { IBlogPost, IExperience, IProject, IReview } from "."
 
 export interface ISectionProps {
 	id?: string
@@ -12,7 +12,6 @@ export interface IServiceCardProps {
 		SVGProps<SVGSVGElement> & { title?: string | undefined }
 	>
 	description: string
-	link: string
 	index?: number
 }
 
@@ -26,11 +25,7 @@ export interface ISectionHeaderProps {
 	subtitle: string
 }
 
-export interface IProjectCardProps {
-	name: string
-	description: string
-	image: string
-	repo: string
+export interface IProjectCardProps extends IProject {
 	index?: number
 }
 
