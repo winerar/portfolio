@@ -8,13 +8,19 @@ const Home: React.FC = (): JSX.Element => {
 	return (
 		<Section id="home">
 			<div className="row">
-				<div className="col-lg-10">
+				<div className="col-lg-8">
 					<h1 className="display-4 fw-bold" data-aos="fade-up">
-						I'm a <span className="text-brand">{profile.specialization}</span>
-						{` from ${profile.location}`}
+						Hi, my name is{" "}
+						<span className="text-brand">{profile.firstName}</span>{" "}
+						<span className="d-block">
+							I'm a <span className="text-brand">{profile.specialization}</span>
+							{` from ${profile.location}`}
+						</span>
 					</h1>
 					<p className="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">
-						I am {profile.fullName}
+						I love crafting creative web projects. My passion for learning and
+						creativity fuels my constant growth in this exciting field. Ready to
+						bring your ideas to life!
 					</p>
 					<div
 						className="d-flex flex-column flex-lg-row gap-4 align-items-center"
