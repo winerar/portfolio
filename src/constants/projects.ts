@@ -1,5 +1,6 @@
 import djNejtrino from "../assets/images/projects/dj_nejtrino.png"
 import forum from "../assets/images/projects/forum.png"
+import portfolio from "../assets/images/projects/portfolio.png"
 import { IProject, Stack } from "../types"
 
 export const projects: Array<IProject> = [
@@ -17,5 +18,12 @@ export const projects: Array<IProject> = [
 		stack: [Stack.HTML, Stack.CSS, Stack.SASS, Stack.Bootstrap],
 		image: forum,
 		repo: "https://github.com/winerar/customer-forum",
+	},
+	{
+		name: "My Portfolio Website",
+		description: "Adaptive landing and smooth animations.",
+		stack: [Stack.React, Stack.Bootstrap, Stack.CSS],
+		image: portfolio,
+		repo: "https://github.com/winerar/portfolio",
 	},
 ]
