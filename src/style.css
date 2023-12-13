@@ -46,8 +46,16 @@ img {
 	color: var(--color-brand);
 }
 
+.bg-brand {
+	background-color: var(--color-brand);
+}
+
 .bg-base {
 	background-color: var(--color-base);
+}
+
+.text-base {
+	color: var(--color-base);
 }
 
 .full-height {
@@ -76,8 +84,8 @@ img {
 
 .icon {
 	fill: var(--color-base);
-	width: 50%;
-	height: 50%;
+	width: 80%;
+	height: 80%;
 }
 
 .icon-small {
