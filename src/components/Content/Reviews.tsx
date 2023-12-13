@@ -7,7 +7,7 @@ const Reviews: React.FC = (): JSX.Element => {
 	return (
 		<Section id="reviews">
 			<SectionHeader title="What My Customers Say" subtitle="Reviews" />
-			<div className="row">
+			<div className="row row-gap-4">
 				{reviews.map((item, index) => (
 					<Review index={index} {...item} key={index} />
 				))}

@@ -19,14 +19,14 @@ const Review: React.FC<IReviewProps> = ({
 						<StarFilled
 							className="icon-small"
 							data-aos="flip-left"
-							data-aos-delay={`${delay(i)}`}
+							data-aos-delay={`${delay(i, undefined, 600, 2100)}`}
 							key={i}
 						/>
 					) : (
 						<Star
 							className="icon-small"
 							data-aos="flip-left"
-							data-aos-delay={`${delay(i)}`}
+							data-aos-delay={`${delay(i, undefined, 600, 2100)}`}
 							key={i}
 						/>
 					)
