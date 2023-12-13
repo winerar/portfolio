@@ -24,7 +24,7 @@ const Contact: React.FC = (): JSX.Element => {
 				<p>
 					Phone | WhatsApp:{" "}
 					<a
-						href={`call:${contact.phone}`}
+						href={`tel:${contact.phone}`}
 						target="_top"
 						className="link-custom"
 					>
