@@ -3,10 +3,18 @@ import Brand from "./Brand"
 import Contribution from "./Contribution"
 import NavList from "./NavList"
 import BsNavbar from "react-bootstrap/Navbar"
+import { useState } from "react"
 
 const Navbar: React.FC = (): JSX.Element => {
+	const [expanded, setExpanded] = useState(false)
+
 	return (
-		<BsNavbar fixed="top" expand="lg" className="navbar-dark navbar-top">
+		<BsNavbar
+			fixed="top"
+			expand="lg"
+			className="navbar-dark navbar-top"
+			expanded={expanded}
+		>
 			<Container className="container flex-lg-column">
 				<Brand />
 				<BsNavbar.Toggle
@@ -16,8 +24,9 @@ const Navbar: React.FC = (): JSX.Element => {
 					aria-expanded="false"
 					label="Toggle navigation"
 					className="border-0"
+					onClick={() => setExpanded(!expanded)}
 				/>
-				<BsNavbar.Collapse id="navbarNav">
+				<BsNavbar.Collapse id="navbarNav" onClick={() => setExpanded(false)}>
 					<NavList />
 				</BsNavbar.Collapse>
 			</Container>
