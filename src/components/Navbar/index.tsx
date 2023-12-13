@@ -6,7 +6,7 @@ import BsNavbar from "react-bootstrap/Navbar"
 
 const Navbar: React.FC = (): JSX.Element => {
 	return (
-		<BsNavbar fixed="top" expand="lg" className="navbar-dark">
+		<BsNavbar fixed="top" expand="lg" className="navbar-dark navbar-top">
 			<Container className="container flex-lg-column">
 				<Brand />
 				<BsNavbar.Toggle

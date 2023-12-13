@@ -124,6 +124,10 @@ img {
 	color: var(--color-brand);
 }
 
+.navbar-top {
+	width: 100vw;
+}
+
 @media (min-width: 992px) {
 	.navbar {
 		min-height: 100vh;
@@ -194,6 +198,8 @@ img {
 
 .card-custom .card-custom__image {
 	overflow: hidden;
+	/* border-top: 2px solid var(--color-brand);
+	border-right: 2px solid var(--color-brand); */
 }
 
 .card-custom .card-custom__image img {
