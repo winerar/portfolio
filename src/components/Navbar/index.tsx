@@ -12,7 +12,7 @@ const Navbar: React.FC = (): JSX.Element => {
 		<BsNavbar
 			fixed="top"
 			expand="lg"
-			className="navbar-dark navbar-top"
+			className="navbar-dark full-width"
 			expanded={expanded}
 		>
 			<Container className="container flex-lg-column">
