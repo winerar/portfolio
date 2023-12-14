@@ -117,15 +117,14 @@ img {
 .navbar .nav-link {
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #ffffff;
 }
 
 .navbar .nav-link:hover {
 	color: var(--color-brand);
 }
 
-.navbar .nav-link .active {
-	color: var(--color-brand);
+.navbar .active {
+	color: var(--color-brand) !important;
 }
 
 @media (min-width: 992px) {
