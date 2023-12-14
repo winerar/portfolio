@@ -2,7 +2,7 @@ export const delay = (
 	index: number,
 	step: number = 300,
 	basicDelay: number = 300,
-	maxDelay: number = 1800
+	maxDelay: number = 2100
 ): number => {
-	return (index * step + basicDelay) % maxDelay
+	return ((index * step) % maxDelay) + basicDelay
 }
