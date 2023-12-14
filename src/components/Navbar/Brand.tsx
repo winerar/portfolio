@@ -3,7 +3,7 @@ import BsNavbar from "react-bootstrap/Navbar"
 
 const Brand = () => {
 	return (
-		<BsNavbar.Brand className="mb-lg-4 mx-lg-auto" href="/">
+		<BsNavbar.Brand className="mb-lg-4 mx-lg-auto" href="/portfolio">
 			<span className="h4 fw-bold d-lg-none">{profile.fullName}</span>
 			<img
 				src={profile.avatar}
