@@ -3,7 +3,7 @@ import Section from "../common/Section"
 import ProjectCard from "./ProjectCard"
 import SectionHeader from "./SectionHeader"
 
-const Projects = () => {
+const Projects: React.FC = (): JSX.Element => {
 	return (
 		<Section id="work">
 			<SectionHeader title="My Recent Projects" subtitle="Work" />
