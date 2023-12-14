@@ -16,7 +16,7 @@ const ProjectCard: React.FC<IProjectCardProps> = ({
 				<h4>{name}</h4>
 				<p>{description}</p>
 				<h5>Stack:</h5>
-				<p className="d-flex gap-2">
+				<p className="d-flex gap-2 flex-wrap">
 					{stack.map((item, index) => (
 						<span className="badge rounded-pill text-base bg-brand" key={index}>
 							{item}
