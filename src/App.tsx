@@ -3,8 +3,6 @@ import "bootstrap"
 import "aos/dist/aos.css"
 import aos from "aos"
 import "./style.css"
-import Navbar from "./components/Navbar"
-import Content from "./components/Content"
 import { RouterProvider, createHashRouter } from "react-router-dom"
 import Home from "./components/Content/Home"
 import Services from "./components/Content/Services"
@@ -13,11 +11,12 @@ import About from "./components/Content/About"
 import Reviews from "./components/Content/Reviews"
 import Blog from "./components/Content/Blog"
 import Contact from "./components/Content/Contact"
+import Main from "./pages/Main"
 
 const router = createHashRouter([
 	{
 		path: "/",
-		Component: Content,
+		Component: Main,
 		children: [
 			{
 				path: "home",
@@ -62,12 +61,7 @@ const App: React.FC = (): JSX.Element => {
 		anchorPlacement: "top-bottom",
 	})
 
-	return (
-		<>
-			<Navbar />
-			<RouterProvider router={router} />
-		</>
-	)
+	return <RouterProvider router={router} />
 }
 
 export default App
