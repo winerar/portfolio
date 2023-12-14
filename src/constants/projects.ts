@@ -22,7 +22,13 @@ export const projects: Array<IProject> = [
 	{
 		name: "My Portfolio Website",
 		description: "Adaptive landing and smooth animations.",
-		stack: [Stack.React, Stack.Bootstrap, Stack.CSS],
+		stack: [
+			Stack.React,
+			Stack.ReactRouter,
+			Stack.TS,
+			Stack.Bootstrap,
+			Stack.CSS,
+		],
 		image: portfolio,
 		repo: "https://github.com/winerar/portfolio",
 	},

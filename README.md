@@ -13,6 +13,8 @@ I provided:
 ## Stack
 
 - React
+- React Router
+- TypeScript
 - CSS
 - Bootstrap
 
