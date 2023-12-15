@@ -12,6 +12,11 @@
 	--font-base: "Jura";
 }
 
+html,
+body {
+	overflow-x: hidden;
+}
+
 body {
 	background-color: var(--color-base-2);
 	color: var(--color-body);
