@@ -1,4 +1,5 @@
 import { IProjectCardProps } from "../../types"
+import Badge from "../common/Badge"
 import Card from "../common/Card"
 import ExternalLink from "./../common/ExternalLink"
 
@@ -18,9 +19,7 @@ const ProjectCard: React.FC<IProjectCardProps> = ({
 				<h5>Stack:</h5>
 				<p className="d-flex gap-2 flex-wrap">
 					{stack.map((item, index) => (
-						<span className="badge rounded-pill text-base bg-brand" key={index}>
-							{item}
-						</span>
+						<Badge text={item} key={index} />
 					))}
 				</p>
 				<ExternalLink text="Open repo" link={repo} />
