@@ -5,17 +5,17 @@ import { useLocation } from "react-router-dom"
 const NavList: React.FC = (): JSX.Element => {
 	const location = useLocation()
 
+	const isActive = (link: string): boolean => {
+		return (
+			location.pathname.substring(1) === link.substring(1) ||
+			(location.pathname === "/" && link === "#home")
+		)
+	}
+
 	return (
 		<Nav className="ms-auto flex-lg-column text-lg-center">
 			{navLinks.map((item, index) => (
-				<Nav.Link
-					href={item.path}
-					key={index}
-					active={
-						location.pathname.substring(1) === item.path.substring(1) ||
-						(location.pathname === "/" && item.path === "#home")
-					}
-				>
+				<Nav.Link href={item.path} key={index} active={isActive(item.path)}>
 					{item.name}
 				</Nav.Link>
 			))}
