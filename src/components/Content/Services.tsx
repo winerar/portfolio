@@ -1,6 +1,6 @@
 import Section from "../common/Section"
 import { services } from "./../../constants"
-import SectionHeader from "./SectionHeader"
+import SectionHeader from "../common/SectionHeader"
 import ServiceCard from "./ServiceCard"
 
 const Services: React.FC = (): JSX.Element => {

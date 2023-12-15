@@ -1,7 +1,7 @@
 import { posts } from "../../constants"
 import Section from "../common/Section"
 import BlogPost from "./BlogPost"
-import SectionHeader from "./SectionHeader"
+import SectionHeader from "../common/SectionHeader"
 
 const Blog = () => {
 	return (

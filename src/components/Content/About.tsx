@@ -1,7 +1,7 @@
 import { education, experience } from "../../constants"
 import Section from "../common/Section"
 import ExperienceList from "./ExperienceList"
-import SectionHeader from "./SectionHeader"
+import SectionHeader from "../common/SectionHeader"
 
 const About: React.FC = (): JSX.Element => {
 	return (

@@ -1,7 +1,7 @@
 import { projects } from "../../constants"
 import Section from "../common/Section"
 import ProjectCard from "./ProjectCard"
-import SectionHeader from "./SectionHeader"
+import SectionHeader from "../common/SectionHeader"
 
 const Projects: React.FC = (): JSX.Element => {
 	return (

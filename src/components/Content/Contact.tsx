@@ -1,7 +1,7 @@
 import { contact } from "../../constants"
 import { delay } from "../../utils"
 import Section from "../common/Section"
-import SectionHeader from "./SectionHeader"
+import SectionHeader from "../common/SectionHeader"
 
 const Contact: React.FC = (): JSX.Element => {
 	return (

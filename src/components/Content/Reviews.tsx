@@ -1,7 +1,7 @@
 import { reviews } from "../../constants"
 import Section from "../common/Section"
 import Review from "./Review"
-import SectionHeader from "./SectionHeader"
+import SectionHeader from "../common/SectionHeader"
 
 const Reviews: React.FC = (): JSX.Element => {
 	return (
