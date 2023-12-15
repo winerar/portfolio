@@ -60,3 +60,7 @@ export interface ICardImageProps {
 	src: string
 	alt?: string
 }
+
+export interface IBadgeProps {
+	text: string
+}
