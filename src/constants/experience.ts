@@ -13,7 +13,7 @@ export const experience: Array<IExperience> = [
 	},
 	{
 		position: ".NET Support Developer",
-		organization: "DevExpress Inc.",
+		organization: "Developer Express Inc.",
 		description:
 			"Customer Support in English. I Provided recommendations to customers on using the company's products to solve specific tasks. Wrote bug reports and address issues. Demonstrated the product's functionality to users using personal demo projects.",
 		city: "Yerevan",
