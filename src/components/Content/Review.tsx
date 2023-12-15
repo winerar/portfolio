@@ -12,21 +12,21 @@ const Review: React.FC<IReviewProps> = ({
 	index = 0,
 }): JSX.Element => {
 	return (
-		<Card className="col-md-4" index={index}>
+		<Card className="col-lg-6 col-xl-4" index={index}>
 			<div className="text-brand d-flex column-gap-1">
 				{[...Array(5)].map((_e, i) =>
 					i < rating ? (
 						<StarFilled
 							className="icon-small"
 							data-aos="flip-left"
-							data-aos-delay={`${delay(index + i, undefined, 600, 6000)}`}
+							data-aos-delay={`${delay(index + i, 300, 600, 6000)}`}
 							key={i}
 						/>
 					) : (
 						<Star
 							className="icon-small"
 							data-aos="flip-left"
-							data-aos-delay={`${delay(index + i, undefined, 600, 6000)}`}
+							data-aos-delay={`${delay(index + i, 300, 600, 6000)}`}
 							key={i}
 						/>
 					)
