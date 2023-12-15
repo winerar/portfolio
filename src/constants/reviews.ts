@@ -10,7 +10,7 @@ export const reviews: Array<IReview> = [
 	{
 		text: "Mastered the art of code reuse, minimizing functionality duplication. Demonstrated excellent communication skills within the team, facilitating the delegation of certain research tasks to responsible developers. Proficiently utilized standard controls and components of the .NET Framework and gained proficiency in understanding their source code.",
 		author: "Alexander",
-		authorInfo: ".NET Support Developer, Developer Express Inc.",
+		authorInfo: ".NET Support Developer at Developer Express Inc.",
 		rating: 5,
 	},
 ]
