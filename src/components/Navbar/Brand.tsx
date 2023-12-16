@@ -10,6 +10,7 @@ const Brand = () => {
 				<span>{profile.fullName}</span>
 			</span>
 			<img
+				loading="lazy"
 				src={profile.avatar}
 				alt={profile.fullName}
 				className="d-none d-lg-block rounded-circle"
