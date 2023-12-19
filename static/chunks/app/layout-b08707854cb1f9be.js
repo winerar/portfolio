@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[185],{8080:function(_,a,e){Promise.resolve().then(e.t.bind(e,2573,23))},2573:function(_){_.exports={style:{fontFamily:"'__Jura_346916', '__Jura_Fallback_346916'",fontStyle:"normal"},className:"__className_346916",variable:"__variable_346916"}}},function(_){_.O(0,[971,938,744],function(){return _(_.s=8080)}),_N_E=_.O()}]);
