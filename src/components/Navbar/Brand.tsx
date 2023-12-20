@@ -14,6 +14,7 @@ const Brand = () => {
 				src={profile.avatar}
 				alt={profile.fullName}
 				className="d-none d-lg-block rounded-circle"
+				width={"216px"} height={"216px"}
 			/>
 		</BsNavbar.Brand>
 	)
