@@ -173,14 +173,14 @@ img {
 
 .btn-brand {
 	background-color: var(--color-brand);
-	color: var(--color-base);
+	color: var(--color-base-2);
 	border-color: var(--color-brand);
 }
 
 .btn-brand:hover,
 .btn-brand:focus {
 	background-color: var(--color-brand-2);
-	color: var(--color-base);
+	color: var(--color-base-2);
 	border-color: var(--color-brand-2);
 }
 
