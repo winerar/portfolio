@@ -10,7 +10,7 @@ const BlogPost: React.FC<IBlogPostProps> = ({
 	index = 0,
 }): JSX.Element => {
 	return (
-		<Card className="col-md-4" index={index} image={{ src: image, alt: title }}>
+		<Card className="col-md-6" index={index} image={{ src: image, alt: title }}>
 			<div className="card-custom__content">
 				<p className="mb-2 text-brand">{date}</p>
 				<h3 className="h5 mb-4">{title}</h3>
