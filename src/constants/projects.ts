@@ -1,6 +1,6 @@
-import djNejtrino from "../assets/images/projects/dj_nejtrino.png"
-import forum from "../assets/images/projects/forum.png"
-import portfolio from "../assets/images/projects/portfolio.png"
+import djNejtrino from "../assets/images/projects/dj_nejtrino.webp"
+import forum from "../assets/images/projects/forum.webp"
+import portfolio from "../assets/images/projects/portfolio.webp"
 import { IProject, Stack } from "../types"
 
 export const projects: Array<IProject> = [

@@ -1,4 +1,4 @@
-import powertoys from "../assets/images/posts/powertoys.png"
+import powertoys from "../assets/images/posts/powertoys.webp"
 import { IBlogPost } from "../types"
 
 export const posts: Array<IBlogPost> = [

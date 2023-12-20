@@ -143,7 +143,7 @@ img {
 		min-height: 100vh;
 		width: var(--sidebar-width);
 		background: linear-gradient(rgba(3, 63, 71, 1), rgba(3, 63, 71, 0.8)),
-			url("./assets/images/achim-ruhnau-cVNQeIJCN78-unsplash.jpg");
+			url("./assets/images/achim-ruhnau-cVNQeIJCN78-unsplash.webp");
 		/* Photo by <a href="https://unsplash.com/@achimr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Achim Ruhnau</a> on <a href="https://unsplash.com/photos/an-aerial-view-of-a-mountain-range-in-the-desert-cVNQeIJCN78?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
 		background-size: cover;
 		background-position: center;
