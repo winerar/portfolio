@@ -14,9 +14,9 @@ const ProjectCard: React.FC<IProjectCardProps> = ({
 	return (
 		<Card className="col-md-6" index={index} image={{ src: image, alt: name }}>
 			<div className="card-custom__content">
-				<h4>{name}</h4>
+				<h3 className="h4">{name}</h3>
 				<p>{description}</p>
-				<h5>Stack:</h5>
+				<h4 className="h5">Stack:</h4>
 				<p className="d-flex gap-2 flex-wrap">
 					{stack.map((item, index) => (
 						<Badge text={item} key={index} />

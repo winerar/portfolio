@@ -34,7 +34,7 @@ const Review: React.FC<IReviewProps> = ({
 			</div>
 			<p className="my-3">{text}</p>
 			<div className="person">
-				<h5>{author}</h5>
+				<h3 className="h5">{author}</h3>
 				<p className="mb-0">{authorInfo}</p>
 			</div>
 		</Card>

@@ -7,7 +7,7 @@ const SectionHeader: React.FC<ISectionHeaderProps> = ({
 	return (
 		<div className="row pb-4" data-aos="fade-up">
 			<div className="col-lg-10">
-				<h6 className="text-uppercase text-brand">{subtitle}</h6>
+				<p className="h6 text-uppercase text-brand">{subtitle}</p>
 				<h2 className="h1">{title}</h2>
 			</div>
 		</div>

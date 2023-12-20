@@ -13,7 +13,7 @@ const ServiceCard: React.FC<IServiceCardProps> = ({
 			<div className="icon-container rounded-4">
 				<Icon className="icon" />
 			</div>
-			<h5 className="mt-4 mb-2">{name}</h5>
+			<h3 className="h5 mt-4 mb-2">{name}</h3>
 			<p className="mb-0">{description}</p>
 		</Card>
 	)

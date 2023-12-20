@@ -13,7 +13,7 @@ const BlogPost: React.FC<IBlogPostProps> = ({
 		<Card className="col-md-4" index={index} image={{ src: image, alt: title }}>
 			<div className="card-custom__content">
 				<p className="mb-2 text-brand">{date}</p>
-				<h5 className="mb-4">{title}</h5>
+				<h3 className="h5 mb-4">{title}</h3>
 				<ExternalLink text="Read more" link={link} />
 			</div>
 		</Card>
