@@ -50,8 +50,10 @@ a:hover {
 }
 
 img {
-	width: 100%;
+  width: 100%; /* or max-width: 100%; */
+  height: auto;
 }
+
 
 .text-brand {
 	color: var(--color-brand);
