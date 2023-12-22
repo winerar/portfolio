@@ -1,6 +1,6 @@
-import { ISectionHeaderProps } from "../../types"
+import { ISectionHeaderProps } from "../../../../types"
 
-const SectionHeader: React.FC<ISectionHeaderProps> = ({
+const Header: React.FC<ISectionHeaderProps> = ({
 	title,
 	subtitle,
 }): JSX.Element => {
@@ -14,4 +14,4 @@ const SectionHeader: React.FC<ISectionHeaderProps> = ({
 	)
 }
 
-export default SectionHeader
+export default Header

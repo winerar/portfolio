@@ -1,12 +1,11 @@
 import { projects } from "../../constants"
 import Section from "../common/Section"
 import ProjectCard from "./ProjectCard"
-import SectionHeader from "../common/SectionHeader"
 
 const Projects: React.FC = (): JSX.Element => {
 	return (
 		<Section id="work">
-			<SectionHeader title="My Recent Projects" subtitle="Work" />
+			<Section.Header title="My Recent Projects" subtitle="Work" />
 			<div className="row row-gap-4">
 				{projects.map((project, index) => (
 					<ProjectCard index={index} {...project} key={index} />

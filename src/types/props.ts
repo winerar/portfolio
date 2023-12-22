@@ -6,6 +6,10 @@ export interface ISectionProps {
 	children?: ReactNode
 }
 
+export interface ISectionComponent extends React.FC<ISectionProps> {
+	Header: React.FC<ISectionHeaderProps>
+}
+
 export interface IServiceCardProps {
 	name: string
 	Icon: FunctionComponent<
@@ -54,6 +58,10 @@ export interface ICardProps {
 		src: string
 		alt: string
 	}
+}
+
+export interface ICardComponent extends React.FC<ICardProps> {
+	Image: React.FC<ICardImageProps>
 }
 
 export interface ICardImageProps {

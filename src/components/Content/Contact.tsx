@@ -1,12 +1,11 @@
 import { contact } from "../../constants"
 import { delay } from "../../utils"
 import Section from "../common/Section"
-import SectionHeader from "../common/SectionHeader"
 
 const Contact: React.FC = (): JSX.Element => {
 	return (
 		<Section id="contact">
-			<SectionHeader title="Contact Information" subtitle="Contact" />
+			<Section.Header title="Contact Information" subtitle="Contact" />
 			<div className="fw-bold text-white">
 				<p data-aos="fade-left" data-aos-delay={delay(1)}>
 					Email:{" "}

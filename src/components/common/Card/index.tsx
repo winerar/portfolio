@@ -1,8 +1,8 @@
-import { ICardProps } from "../../types"
-import { delay } from "../../utils"
-import CardImage from "./CardImage"
+import { ICardComponent } from "../../../types"
+import { delay } from "../../../utils"
+import Image from "./components/Image"
 
-const Card: React.FC<ICardProps> = ({
+const Card: ICardComponent = ({
 	index = 0,
 	children,
 	className = "",
@@ -15,11 +15,13 @@ const Card: React.FC<ICardProps> = ({
 			data-aos-delay={`${delay(index)}`}
 		>
 			<div className="card-custom service bg-base rounded-4 shadow-effect">
-				{image && <CardImage src={image.src} alt={image?.alt} />}
+				{image && <Image src={image.src} alt={image?.alt} />}
 				<div className="p-4">{children}</div>
 			</div>
 		</div>
 	)
 }
+
+Card.Image = Image
 
 export default Card

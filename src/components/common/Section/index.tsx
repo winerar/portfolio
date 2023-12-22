@@ -1,6 +1,7 @@
-import { ISectionProps } from "../../types"
+import { ISectionComponent } from "../../../types"
+import Header from "./components/Header"
 
-const Section: React.FC<ISectionProps> = ({ id, children }): JSX.Element => {
+const Section: ISectionComponent = ({ id, children }): JSX.Element => {
 	return (
 		<section
 			id={id}
@@ -10,5 +11,7 @@ const Section: React.FC<ISectionProps> = ({ id, children }): JSX.Element => {
 		</section>
 	)
 }
+
+Section.Header = Header
 
 export default Section
