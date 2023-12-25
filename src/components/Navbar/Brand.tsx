@@ -4,7 +4,7 @@ import Logo from "../../assets/favicon.svg?react"
 
 const Brand = () => {
 	return (
-		<BsNavbar.Brand className="mb-lg-4 mx-lg-auto" href="/portfolio">
+		<BsNavbar.Brand className="mb-lg-4 mx-lg-auto" href="/">
 			<span className="h4 fw-bold d-lg-none">
 				<Logo className="icon-big me-3" />
 				<span>{profile.fullName}</span>
