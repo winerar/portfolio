@@ -2,6 +2,16 @@ import { IExperience, Months } from "../types"
 
 export const experience: Array<IExperience> = [
 	{
+		position: "Web Engineer",
+		organization: "Martspec",
+		description:
+			"Frontend developing using React, website support.",
+		city: "Austin",
+		country: "USA",
+		yearFrom: 2023,
+		monthFrom: Months.Dec,
+	},
+	{
 		position: "Frontend Developer",
 		organization: "Freelance",
 		description:
