@@ -13,12 +13,20 @@ const ExperienceCard: React.FC<IExperienceCardProps> = ({
 	monthFrom,
 	monthTo,
 	index = 0,
+	website,
 }): JSX.Element => {
 	return (
 		<Card className="col-12" index={index}>
 			<h4>{position}</h4>
 			<p className={`text-brand ${description ? "mb-2" : "mb-0"}`}>
-				{`${organization}, ${city}, ${country} (${
+				{website ? (
+					<a href={website} target="_blank" className="link-custom text-brand">
+						{organization}
+					</a>
+				) : (
+					organization
+				)}
+				{`, ${city}, ${country} (${
 					monthFrom ? `${monthFrom} ` : ""
 				}${yearFrom} - ${monthTo ? `${monthTo} ` : ""}${yearTo ?? "present"})`}
 			</p>

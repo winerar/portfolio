@@ -13,6 +13,7 @@ export const education: Array<IEducation> = [
 		description: "",
 		yearFrom: 2019,
 		yearTo: 2021,
+		website: "https://ncfu.ru/",
 	},
 	{
 		degree: "Bachelor",
@@ -26,5 +27,6 @@ export const education: Array<IEducation> = [
 		description: "",
 		yearFrom: 2015,
 		yearTo: 2019,
+		website: "https://ncfu.ru/",
 	},
 ]

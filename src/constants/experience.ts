@@ -4,12 +4,12 @@ export const experience: Array<IExperience> = [
 	{
 		position: "Web Engineer",
 		organization: "Martspec",
-		description:
-			"Frontend developing using React, website support.",
+		description: "Frontend developing using React, website support.",
 		city: "Austin",
 		country: "USA",
 		yearFrom: 2023,
 		monthFrom: Months.Dec,
+		website: "https://martspec.com",
 	},
 	{
 		position: "Frontend Developer",
@@ -32,6 +32,7 @@ export const experience: Array<IExperience> = [
 		monthFrom: Months.Aug,
 		yearTo: 2022,
 		monthTo: Months.Dec,
+		website: "https://www.devexpress.com",
 	},
 	{
 		position: "Developer",
@@ -44,5 +45,6 @@ export const experience: Array<IExperience> = [
 		monthFrom: Months.Jul,
 		yearTo: 2022,
 		monthTo: Months.Jul,
+		website: "https://strizament-vinoteka.ru",
 	},
 ]

@@ -15,4 +15,5 @@ export interface IExperience {
 	yearTo?: number
 	monthFrom?: Months
 	monthTo?: Months
+	website?: string
 }
