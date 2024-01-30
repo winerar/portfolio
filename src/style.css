@@ -1,5 +1,27 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap");
+@font-face {
+	font-family: Light;
+	src: url("./assets/fonts/Jura-Light.ttf");
+}
+
+@font-face {
+	font-family: Regular;
+	src: url("./assets/fonts/Jura-Regular.ttf");
+}
+
+@font-face {
+	font-family: Medium;
+	src: url("./assets/fonts/Jura-Medium.ttf");
+}
+
+@font-face {
+	font-family: SemiBold;
+	src: url("./assets/fonts/Jura-SemiBold.ttf");
+}
+
+@font-face {
+	font-family: Bold;
+	src: url("./assets/fonts/Jura-Bold.ttf");
+}
 
 :root {
 	--color-body: #b8b8b8;
@@ -9,7 +31,7 @@
 	--color-brand: #ff7c5e;
 	--color-brand-2: #e9593c;
 	--sidebar-width: 15rem;
-	--font-base: "Jura";
+	--font-base: Regular;
 }
 
 html,
