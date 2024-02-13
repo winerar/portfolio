@@ -1,5 +1,5 @@
 import { Profile } from "../types"
-import avatar from "../assets/images/me-square-tp.webp"
+import avatar from "../assets/images/DSC_0326.webp"
 
 export const profile: Profile = {
 	firstName: "Alexander",
