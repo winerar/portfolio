@@ -152,14 +152,17 @@ img {
 .navbar .nav-link {
 	font-weight: 700;
 	text-transform: uppercase;
+	transition: all 0.4s;
 }
 
 .navbar .nav-link:hover {
 	color: var(--color-brand);
+	letter-spacing: 0.25rem;
 }
 
 .navbar .active {
 	color: var(--color-brand) !important;
+	letter-spacing: 0.125rem;
 }
 
 @media (min-width: 992px) {
@@ -179,6 +182,12 @@ img {
 
 	.navbar-brand img {
 		border: 0.25rem solid var(--color-brand);
+		overflow: hidden;
+		transition: all 0.4s ease;
+	}
+
+	.navbar-brand:hover img {
+		border: 0.5rem solid var(--color-brand);
 	}
 
 	/* Content wrapper */
@@ -193,6 +202,7 @@ img {
 .btn {
 	padding: 0.75rem 1.75rem;
 	font-weight: 700;
+	transition: all 0.4s;
 }
 
 .btn-brand {
