@@ -1,26 +1,51 @@
 @font-face {
-	font-family: Light;
-	src: url("./assets/fonts/Jura-Light.ttf");
+	font-family: 'Jura';
+	src: url('./assets/fonts/subset-Jura-Bold.woff') format('woff'),
+			url('./assets/fonts/subset-Jura-Bold.ttf') format('truetype'),
+			url('./assets/fonts/subset-Jura-Bold.svg#Jura-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-	font-family: Regular;
-	src: url("./assets/fonts/Jura-Regular.ttf");
+	font-family: 'Jura';
+	src: url('./assets/fonts/subset-Jura-Regular.woff') format('woff'),
+			url('./assets/fonts/subset-Jura-Regular.ttf') format('truetype'),
+			url('./assets/fonts/subset-Jura-Regular.svg#Jura-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-	font-family: Medium;
-	src: url("./assets/fonts/Jura-Medium.ttf");
+	font-family: 'Jura';
+	src: url('./assets/fonts/subset-Jura-SemiBold.woff') format('woff'),
+			url('./assets/fonts/subset-Jura-SemiBold.ttf') format('truetype'),
+			url('./assets/fonts/subset-Jura-SemiBold.svg#Jura-SemiBold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-	font-family: SemiBold;
-	src: url("./assets/fonts/Jura-SemiBold.ttf");
+	font-family: 'Jura';
+	src: url('./assets/fonts/subset-Jura-Light.woff') format('woff'),
+			url('./assets/fonts/subset-Jura-Light.ttf') format('truetype'),
+			url('./assets/fonts/subset-Jura-Light.svg#Jura-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-	font-family: Bold;
-	src: url("./assets/fonts/Jura-Bold.ttf");
+	font-family: 'Jura';
+	src: url('./assets/fonts/subset-Jura-Medium.woff') format('woff'),
+			url('./assets/fonts/subset-Jura-Medium.ttf') format('truetype'),
+			url('./assets/fonts/subset-Jura-Medium.svg#Jura-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
 }
 
 :root {
@@ -31,7 +56,7 @@
 	--color-brand: #ff7c5e;
 	--color-brand-2: #e9593c;
 	--sidebar-width: 15rem;
-	--font-base: Regular;
+	--font-base: Jura;
 }
 
 html,
