@@ -16,7 +16,7 @@ const Navbar: React.FC = (): JSX.Element => {
 			className="navbar-dark full-width"
 			expanded={expanded}
 		>
-			<Container className="container flex-lg-column">
+			<Container className="flex-lg-column">
 				<Brand />
 				<BsNavbar.Toggle
 					data-toggle="collapse"
