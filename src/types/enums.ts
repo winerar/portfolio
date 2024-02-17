@@ -10,6 +10,7 @@ export enum Stack {
 	ReduxToolkit = "Redux Toolkit",
 	ReactRouter = "React Router",
 	Bootstrap = "Bootstrap",
+	PurgeCSS = "PurgeCSS",
 }
 
 export enum Months {

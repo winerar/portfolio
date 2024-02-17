@@ -28,6 +28,7 @@ export const projects: Array<IProject> = [
 			Stack.TS,
 			Stack.Bootstrap,
 			Stack.CSS,
+			Stack.PurgeCSS,
 		],
 		image: portfolio,
 		repo: "https://github.com/winerar/portfolio",
