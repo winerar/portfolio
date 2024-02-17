@@ -13,6 +13,7 @@ const Contact: React.FC = (): JSX.Element => {
 						href={`mailto:${contact.email}`}
 						target="_top"
 						className="link-custom"
+						title="Email"
 					>
 						{contact.email}
 					</a>
@@ -23,25 +24,41 @@ const Contact: React.FC = (): JSX.Element => {
 						href={`tel:${contact.phone}`}
 						target="_top"
 						className="link-custom"
+						title="Phone & WhatsApp"
 					>
 						{contact.phone}
 					</a>
 				</p>
 				<p data-aos="fade-left" data-aos-delay={delay(3)}>
 					Telegram:{" "}
-					<a href={contact.telegram} target="_blank" className="link-custom">
+					<a
+						href={contact.telegram}
+						target="_blank"
+						className="link-custom"
+						title="Telegram"
+					>
 						{contact.telegram}
 					</a>
 				</p>
 				<p data-aos="fade-left" data-aos-delay={delay(4)}>
 					LinkedIn:{" "}
-					<a href={contact.linkedIn} target="_blank" className="link-custom">
+					<a
+						href={contact.linkedIn}
+						target="_blank"
+						className="link-custom"
+						title="LinkedIn"
+					>
 						{contact.linkedIn}
 					</a>
 				</p>
 				<p data-aos="fade-left" data-aos-delay={delay(5)}>
 					GitHub:{" "}
-					<a href={contact.github} target="_blank" className="link-custom">
+					<a
+						href={contact.github}
+						target="_blank"
+						className="link-custom"
+						title="GitHub"
+					>
 						{contact.github}
 					</a>
 				</p>
