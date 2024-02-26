@@ -1,0 +1,17 @@
+@import "@styles/variables.scss";
+
+.nav-link {
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: $transition-default;
+}
+
+.nav-link:hover {
+	color: $color-brand;
+	letter-spacing: 0.25rem;
+}
+
+.nav-link__active {
+  color: $color-brand-2 !important;
+	letter-spacing: 0.125rem;
+}

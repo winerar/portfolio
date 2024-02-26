@@ -1,0 +1,10 @@
+.contribution {
+	font-size: 0.75rem;
+	display: none;
+}
+
+@media (min-width: 992px)  {
+  .contribution {
+    display: block;
+  }
+}

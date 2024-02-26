@@ -1,0 +1,12 @@
+@import "@styles/variables.scss";
+
+.round-image {
+	border: 0.25rem solid $color-brand;
+  border-radius: 100%;
+	overflow: hidden;
+	transition: $transition-default;
+}
+
+.round-image:hover {
+  border: 0.5rem solid $color-brand;
+}

@@ -1,0 +1,28 @@
+@import "@styles/variables";
+
+.link {
+	font-weight: 700;
+	position: relative;
+	text-decoration: none;
+	color: $color-body;
+	transition: $transition-default;
+}
+
+.link:hover {
+	color: $color-brand;
+}
+
+.link::after {
+	content: "";
+	width: 0%;
+	height: 0.125rem;
+	background-color: $color-brand;
+	position: absolute;
+	left: 0;
+	top: 110%;
+	transition: $transition-default;
+}
+
+.link:hover:after {
+	width: 100%;
+}
