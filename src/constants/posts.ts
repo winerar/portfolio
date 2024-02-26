@@ -1,7 +1,14 @@
 import powertoys from "../assets/images/posts/powertoys.webp"
+import whytutorialssuck from "../assets/images/posts/why-youtube-tutorials-suck.webp"
 import { IBlogPost } from "../types"
 
 export const posts: Array<IBlogPost> = [
+	{
+		title: "Why Youtube Tutorials Suck and Why It's Good",
+		date: "February 26, 2024",
+		image: whytutorialssuck,
+		link: "https://www.linkedin.com/pulse/why-youtube-tutorials-suck-its-good-%2525D0%2525B0%2525D0%2525BB%2525D0%2525B5%2525D0%2525BA%2525D1%252581%2525D0%2525B0%2525D0%2525BD%2525D0%2525B4%2525D1%252580-%2525D0%2525BA%2525D0%2525B0%2525D1%252580%2525D0%2525B0%2525D1%252587%2525D0%2525B5%2525D0%2525B2%2525D1%252586%2525D0%2525B5%2525D0%2525B2-dapce/?trackingId=dPL%2FJshER924k9wdLX5Zxg%3D%3D",
+	},
 	{
 		title: "Как получать удовольствие от Windows или Microsoft PowerToys",
 		date: "July 21, 2023",
