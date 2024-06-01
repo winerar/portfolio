@@ -8,7 +8,7 @@ export const experience: Array<IExperience> = [
 		city: "Austin",
 		country: "USA",
 		yearFrom: 2023,
-		monthFrom: Months.Dec,
+		monthFrom: Months.Jun,
 		website: "https://martspec.com",
 	},
 	{
