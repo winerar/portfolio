@@ -2,13 +2,38 @@ import { IExperience, Months } from "../types"
 
 export const experience: Array<IExperience> = [
 	{
+		position: "Frontend React Developer",
+		organization: "Gräbert GmbH",
+		description: "Developing frontend for ARES Kudo using React and MUI.",
+		city: "Berlin",
+		country: "Germany",
+		yearFrom: 2024,
+		monthFrom: Months.Aug,
+		website: "https://www.graebert.com/",
+	},
+	{
+		position: "Frontend React Developer",
+		organization: "MetaLamp",
+		description: "Developed a hotel booking website.",
+		city: "Yerevan",
+		country: "Armenia",
+		yearFrom: 2024,
+		monthFrom: Months.Mar,
+		yearTo: 2024,
+		monthTo: Months.Aug,
+		website: "https://metalamp.ru/",
+	},
+	{
 		position: "React Web Engineer",
 		organization: "Martspec LLC",
-		description: "Support and develop company website, implement Atomic Design.",
+		description:
+			"I developed and maintained a website for a product company that develops applications for Apple Watch.",
 		city: "Austin",
 		country: "USA",
 		yearFrom: 2023,
 		monthFrom: Months.Jun,
+		yearTo: 2024,
+		monthTo: Months.Jun,
 		website: "https://martspec.com",
 	},
 	{
