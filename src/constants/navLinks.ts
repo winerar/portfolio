@@ -5,14 +5,14 @@ export const navLinks: Array<INavLink> = [
 		name: "Home",
 		path: "#home",
 	},
-	{
-		name: "Services",
-		path: "#services",
-	},
-	{
-		name: "Work",
-		path: "#work",
-	},
+	// {
+	// 	name: "Services",
+	// 	path: "#services",
+	// },
+	// {
+	// 	name: "Work",
+	// 	path: "#work",
+	// },
 	{
 		name: "About",
 		path: "#about",
