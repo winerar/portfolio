@@ -3,9 +3,9 @@ import About from "./About"
 import Blog from "./Blog"
 import Contact from "./Contact"
 import Home from "./Home"
-import Projects from "./Projects"
+// import Projects from "./Projects"
 import Reviews from "./Reviews"
-import Services from "./Services"
+// import Services from "./Services"
 
 const Content = () => {
 	return (

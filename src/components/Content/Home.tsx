@@ -2,7 +2,7 @@ import CaretDown from "../../assets/icons/caret-down-fill.svg?react"
 import Download from "../../assets/icons/download.svg?react"
 import { profile } from "../../constants"
 import Section from "../common/Section"
-import cv from "../../assets/cv/frontend-developer-alexander-karachevtsev-cv-en.pdf"
+import cv from "../../assets/cv/Alexander Karachevtsev CV 2024.pdf"
 
 const Home: React.FC = (): JSX.Element => {
 	return (
