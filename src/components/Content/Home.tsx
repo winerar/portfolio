@@ -28,7 +28,7 @@ const Home: React.FC = () => {
 						data-aos-delay="600"
 					>
 						<a
-							href="#work"
+							href="#about"
 							className="btn d-flex gap-2 align-items-center btn-brand"
 						>
 							<span>Explore My Work</span>
