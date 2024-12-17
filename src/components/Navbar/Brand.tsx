@@ -1,12 +1,12 @@
 import { profile } from "../../constants"
 import BsNavbar from "react-bootstrap/Navbar"
-import Logo from "../../assets/favicon.svg?react"
+import Logo from "../../assets/icons/logo-dark.svg?react"
 
 const Brand = () => {
 	return (
 		<BsNavbar.Brand className="mb-lg-4 mx-lg-auto" href="/">
 			<span className="h4 fw-bold d-lg-none">
-				<Logo className="icon-big me-3" />
+				<Logo className="icon-big me-1" />
 				<span>{profile.fullName}</span>
 			</span>
 			<img
@@ -14,7 +14,8 @@ const Brand = () => {
 				src={profile.avatar}
 				alt={profile.fullName}
 				className="d-none d-lg-block rounded-circle"
-				width={"216px"} height={"216px"}
+				width={"216px"}
+				height={"216px"}
 			/>
 		</BsNavbar.Brand>
 	)
