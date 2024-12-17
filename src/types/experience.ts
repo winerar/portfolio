@@ -1,5 +1,3 @@
-import { Months, Stack } from "."
-
 export interface IEducation extends IExperience {
 	degree: string
 	faculty: string
