@@ -1,6 +1,5 @@
 import { Container } from "react-bootstrap"
 import Brand from "./Brand"
-import Contribution from "./Contribution"
 import NavList from "./NavList"
 import BsNavbar from "react-bootstrap/Navbar"
 import { useState } from "react"
@@ -33,7 +32,6 @@ const Navbar: React.FC = (): JSX.Element => {
 					<NavList />
 				</BsNavbar.Collapse>
 			</Container>
-			{/* <Contribution /> */}
 		</BsNavbar>
 	)
 }
