@@ -2,7 +2,7 @@ import { education, experience } from "../../constants"
 import Section from "../common/Section"
 import ExperienceList from "./ExperienceList"
 
-const About: React.FC = (): JSX.Element => {
+const About: React.FC = () => {
 	return (
 		<Section id="about">
 			<Section.Header title="My Education & Experience" subtitle="About" />

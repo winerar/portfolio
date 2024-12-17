@@ -5,7 +5,7 @@ import BsNavbar from "react-bootstrap/Navbar"
 import { useState } from "react"
 import Icon from "../../assets/icons/bars-solid.svg?react"
 
-const Navbar: React.FC = (): JSX.Element => {
+const Navbar: React.FC = () => {
 	const [expanded, setExpanded] = useState(false)
 
 	return (

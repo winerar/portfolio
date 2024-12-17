@@ -17,7 +17,7 @@ const ExperienceCard: React.FC<IExperienceCardProps> = ({
 	index = 0,
 	website,
 	stack,
-}): JSX.Element => {
+}) => {
 	return (
 		<Card className="col-12" index={index}>
 			<h4>{position}</h4>

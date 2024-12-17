@@ -7,7 +7,7 @@ const Card: ICardComponent = ({
 	children,
 	className = "",
 	image,
-}): JSX.Element => {
+}) => {
 	return (
 		<div
 			className={className}

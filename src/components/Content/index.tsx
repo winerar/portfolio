@@ -11,8 +11,6 @@ const Content = () => {
 	return (
 		<div id="content-wrapper">
 			<Home />
-			{/* <Services /> */}
-			{/* <Projects /> */}
 			<About />
 			<Reviews />
 			<Blog />

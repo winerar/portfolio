@@ -1,10 +1,7 @@
 import Arrow from "../../assets/icons/box-arrow-up-right.svg?react"
 import { IExternalLinkProps } from "../../types"
 
-const ExternalLink: React.FC<IExternalLinkProps> = ({
-	text,
-	link,
-}): JSX.Element => {
+const ExternalLink: React.FC<IExternalLinkProps> = ({ text, link }) => {
 	return (
 		<a
 			href={link}

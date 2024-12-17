@@ -1,4 +1,4 @@
-const Contribution: React.FC = (): JSX.Element => {
+const Contribution: React.FC = () => {
 	return (
 		<div className="position-absolute bottom-0 start-0 w-100 text-center pb-2 px-3 fw-light contribution">
 			Photo by{" "}

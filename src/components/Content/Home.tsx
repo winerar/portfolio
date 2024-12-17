@@ -4,7 +4,7 @@ import { profile } from "../../constants"
 import Section from "../common/Section"
 import cv from "../../assets/cv/Alexander Karachevtsev CV 2024.pdf"
 
-const Home: React.FC = (): JSX.Element => {
+const Home: React.FC = () => {
 	return (
 		<Section id="home">
 			<div className="row">

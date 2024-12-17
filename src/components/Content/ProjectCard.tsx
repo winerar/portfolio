@@ -10,7 +10,7 @@ const ProjectCard: React.FC<IProjectCardProps> = ({
 	image,
 	repo,
 	index = 0,
-}): JSX.Element => {
+}) => {
 	return (
 		<Card className="col-md-6" index={index} image={{ src: image, alt: name }}>
 			<div className="card-custom__content">

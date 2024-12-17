@@ -2,7 +2,7 @@ import { projects } from "../../constants"
 import Section from "../common/Section"
 import ProjectCard from "./ProjectCard"
 
-const Projects: React.FC = (): JSX.Element => {
+const Projects: React.FC = () => {
 	return (
 		<Section id="work">
 			<Section.Header title="My Recent Projects" subtitle="Work" />

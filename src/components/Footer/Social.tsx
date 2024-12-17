@@ -3,7 +3,7 @@ import LinkedIn from "../../assets/icons/linkedin.svg?react"
 import Telegram from "../../assets/icons/telegram.svg?react"
 import { contact } from "../../constants"
 
-const Social: React.FC = (): JSX.Element => {
+const Social: React.FC = () => {
 	return (
 		<div className="d-flex gap-3">
 			<a href={contact.telegram} target="_blank" title="Telegram">

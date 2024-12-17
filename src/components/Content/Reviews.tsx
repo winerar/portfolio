@@ -2,7 +2,7 @@ import { reviews } from "../../constants"
 import Section from "../common/Section"
 import Review from "./Review"
 
-const Reviews: React.FC = (): JSX.Element => {
+const Reviews: React.FC = () => {
 	return (
 		<Section id="reviews">
 			<Section.Header

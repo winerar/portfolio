@@ -2,7 +2,7 @@ import React from "react"
 import Content from "../components/Content"
 import Navbar from "../components/Navbar"
 
-const Main: React.FC = (): JSX.Element => {
+const Main: React.FC = () => {
 	return (
 		<>
 			<Navbar />

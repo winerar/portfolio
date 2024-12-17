@@ -50,7 +50,7 @@ const router = createHashRouter([
 	},
 ])
 
-const App: React.FC = (): JSX.Element => {
+const App: React.FC = () => {
 	aos.init({
 		offset: 120,
 		delay: 0,

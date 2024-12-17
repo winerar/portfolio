@@ -1,9 +1,6 @@
 import { ISectionHeaderProps } from "../../../../types"
 
-const Header: React.FC<ISectionHeaderProps> = ({
-	title,
-	subtitle,
-}): JSX.Element => {
+const Header: React.FC<ISectionHeaderProps> = ({ title, subtitle }) => {
 	return (
 		<div className="row pb-4" data-aos="fade-up">
 			<div className="col-lg-10">

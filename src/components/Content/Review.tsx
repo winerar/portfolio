@@ -10,7 +10,7 @@ const Review: React.FC<IReviewProps> = ({
 	authorInfo,
 	rating,
 	index = 0,
-}): JSX.Element => {
+}) => {
 	return (
 		<Card className="col-lg-6 col-xl-4" index={index}>
 			<div className="text-brand d-flex column-gap-1">

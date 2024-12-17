@@ -2,7 +2,7 @@ import { Nav } from "react-bootstrap"
 import { navLinks } from "../../constants"
 import { useLocation } from "react-router-dom"
 
-const NavList: React.FC = (): JSX.Element => {
+const NavList: React.FC = () => {
 	const location = useLocation()
 
 	const isActive = (link: string): boolean => {

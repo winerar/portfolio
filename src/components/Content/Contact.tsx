@@ -2,7 +2,7 @@ import { contact } from "../../constants"
 import { delay } from "../../utils"
 import Section from "../common/Section"
 
-const Contact: React.FC = (): JSX.Element => {
+const Contact: React.FC = () => {
 	return (
 		<Section id="contact">
 			<Section.Header title="Contact Information" subtitle="Contact" />
