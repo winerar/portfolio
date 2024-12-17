@@ -157,9 +157,13 @@ img {
 }
 
 .icon-big {
-	fill: var(--color-body);
+	fill: var(--color-heading);
 	width: 2rem;
 	height: 2rem;
+}
+
+.icon-big:hover {
+	fill: var(--color-brand);
 }
 
 .contribution {
