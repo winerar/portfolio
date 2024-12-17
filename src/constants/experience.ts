@@ -13,7 +13,7 @@ export const experience: Array<IExperience> = [
 		stack: [
 			Stack.React,
 			Stack.MUI,
-			Stack.TS,
+			Stack.TypeScript,
 			Stack.Flux,
 			Stack.Vite,
 			Stack.BitBucket,
@@ -34,7 +34,7 @@ export const experience: Array<IExperience> = [
 		stack: [
 			Stack.React,
 			Stack.Next,
-			Stack.TS,
+			Stack.TypeScript,
 			Stack.Webpack,
 			Stack.Redux,
 			Stack.SCSS,
