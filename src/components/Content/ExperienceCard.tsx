@@ -1,6 +1,7 @@
 import React from "react"
 import { IExperienceCardProps } from "../../types"
 import Card from "../common/Card"
+import ExternalLink from "../common/ExternalLink"
 
 const ExperienceCard: React.FC<IExperienceCardProps> = ({
 	position,
@@ -18,18 +19,24 @@ const ExperienceCard: React.FC<IExperienceCardProps> = ({
 	return (
 		<Card className="col-12" index={index}>
 			<h4>{position}</h4>
-			<p className={`text-brand ${description ? "mb-2" : "mb-0"}`}>
+			<div
+				className={`text-brand ${
+					description ? "mb-2" : "mb-0"
+				} d-flex justify-content-between flex-wrap gap-1`}
+			>
 				{website ? (
-					<a href={website} target="_blank" className="link-custom text-brand">
-						{organization}
-					</a>
+					<ExternalLink text={organization} link={website} />
 				) : (
-					organization
+					<span>{organization}</span>
 				)}
-				{`, ${city}, ${country} (${
-					monthFrom ? `${monthFrom} ` : ""
-				}${yearFrom} - ${monthTo ? `${monthTo} ` : ""}${yearTo ?? "present"})`}
-			</p>
+				<span>
+					{`${city}, ${country} (${
+						monthFrom ? `${monthFrom} ` : ""
+					}${yearFrom} - ${monthTo ? `${monthTo} ` : ""}${
+						yearTo ?? "present"
+					})`}
+				</span>
+			</div>
 			{description ?? <p className="mb-0">{description}</p>}
 		</Card>
 	)

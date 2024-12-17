@@ -5,7 +5,7 @@ const Section: ISectionComponent = ({ id, children }): JSX.Element => {
 	return (
 		<section
 			id={id}
-			className="full-height d-flex flex-column justify-content-center px-lg-5 py-5 border-bottom border-2 border-white"
+			className="section full-height d-flex flex-column justify-content-center px-lg-5 py-5"
 		>
 			<div className="container">{children}</div>
 		</section>

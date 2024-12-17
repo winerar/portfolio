@@ -33,7 +33,7 @@ const Navbar: React.FC = (): JSX.Element => {
 					<NavList />
 				</BsNavbar.Collapse>
 			</Container>
-			<Contribution />
+			{/* <Contribution /> */}
 		</BsNavbar>
 	)
 }
