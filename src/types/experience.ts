@@ -13,8 +13,8 @@ export interface IExperience {
 	description: string
 	yearFrom: number
 	yearTo?: number
-	monthFrom?: Months
-	monthTo?: Months
+	monthFrom?: string
+	monthTo?: string
 	website?: string
-	stack?: Array<Stack>
+	stack?: Array<string>
 }
