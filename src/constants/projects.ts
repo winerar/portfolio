@@ -25,7 +25,7 @@ export const projects: Array<IProject> = [
 		stack: [
 			Stack.React,
 			Stack.ReactRouter,
-			Stack.TS,
+			Stack.TypeScript,
 			Stack.Bootstrap,
 			Stack.CSS,
 			Stack.PurgeCSS,
