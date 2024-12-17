@@ -2,6 +2,7 @@ import React from "react"
 import { IExperienceCardProps } from "../../types"
 import Card from "../common/Card"
 import ExternalLink from "../common/ExternalLink"
+import Badge from "../common/Badge"
 
 const ExperienceCard: React.FC<IExperienceCardProps> = ({
 	position,
@@ -15,6 +16,7 @@ const ExperienceCard: React.FC<IExperienceCardProps> = ({
 	monthTo,
 	index = 0,
 	website,
+	stack,
 }): JSX.Element => {
 	return (
 		<Card className="col-12" index={index}>
@@ -38,6 +40,16 @@ const ExperienceCard: React.FC<IExperienceCardProps> = ({
 				</span>
 			</div>
 			{description ?? <p className="mb-0">{description}</p>}
+			{stack && (
+				<>
+					<h5 className="h6 mt-2">Stack:</h5>
+					<p className="d-flex gap-2 flex-wrap">
+						{stack.map((item, index) => (
+							<Badge text={item} key={index} />
+						))}
+					</p>
+				</>
+			)}
 		</Card>
 	)
 }

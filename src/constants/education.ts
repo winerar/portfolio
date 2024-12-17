@@ -7,7 +7,7 @@ export const education: Array<IEducation> = [
 		get position() {
 			return `${this.degree} of ${this.faculty}`
 		},
-		organization: "NCFU",
+		organization: "North-Caucasus Federal University",
 		city: "Stavropol",
 		country: "Russia",
 		description: "",
@@ -21,7 +21,7 @@ export const education: Array<IEducation> = [
 		get position() {
 			return `${this.degree} of ${this.faculty}`
 		},
-		organization: "NCFU",
+		organization: "North-Caucasus Federal University",
 		city: "Stavropol",
 		country: "Russia",
 		description: "",

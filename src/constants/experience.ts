@@ -1,4 +1,4 @@
-import { IExperience, Months } from "../types"
+import { IExperience, Months, Stack } from "../types"
 
 export const experience: Array<IExperience> = [
 	{
@@ -10,6 +10,15 @@ export const experience: Array<IExperience> = [
 		yearFrom: 2024,
 		monthFrom: Months.Aug,
 		website: "https://www.graebert.com/",
+		stack: [
+			Stack.React,
+			Stack.MUI,
+			Stack.TS,
+			Stack.Flux,
+			Stack.Vite,
+			Stack.BitBucket,
+			Stack.Jira,
+		],
 	},
 	{
 		position: "Frontend React Developer",
@@ -22,6 +31,18 @@ export const experience: Array<IExperience> = [
 		yearTo: 2024,
 		monthTo: Months.Aug,
 		website: "https://metalamp.ru/",
+		stack: [
+			Stack.React,
+			Stack.Next,
+			Stack.TS,
+			Stack.Webpack,
+			Stack.Redux,
+			Stack.SCSS,
+			Stack.Pug,
+			Stack.Gitlab,
+			Stack.Firebase,
+			Stack.Scrum,
+		],
 	},
 	{
 		position: "React Web Engineer",
@@ -35,6 +56,14 @@ export const experience: Array<IExperience> = [
 		yearTo: 2024,
 		monthTo: Months.Jun,
 		website: "https://martspec.com",
+		stack: [
+			Stack.React,
+			Stack.Webpack,
+			Stack.TypeScript,
+			Stack.Git,
+			Stack.SCSS,
+			Stack.Bootstrap,
+		],
 	},
 	{
 		position: "Frontend Developer",

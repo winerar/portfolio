@@ -1,4 +1,4 @@
-import { Months } from "."
+import { Months, Stack } from "."
 
 export interface IEducation extends IExperience {
 	degree: string
@@ -16,4 +16,5 @@ export interface IExperience {
 	monthFrom?: Months
 	monthTo?: Months
 	website?: string
+	stack?: Array<Stack>
 }
