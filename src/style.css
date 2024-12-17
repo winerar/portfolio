@@ -1,60 +1,60 @@
 @font-face {
-	font-family: 'Jura';
-	src: url('./assets/fonts/subset-Jura-Bold.woff') format('woff'),
-			url('./assets/fonts/subset-Jura-Bold.ttf') format('truetype'),
-			url('./assets/fonts/subset-Jura-Bold.svg#Jura-Bold') format('svg');
+	font-family: "Jura";
+	src: url("./assets/fonts/subset-Jura-Bold.woff") format("woff"),
+		url("./assets/fonts/subset-Jura-Bold.ttf") format("truetype"),
+		url("./assets/fonts/subset-Jura-Bold.svg#Jura-Bold") format("svg");
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Jura';
-	src: url('./assets/fonts/subset-Jura-Regular.woff') format('woff'),
-			url('./assets/fonts/subset-Jura-Regular.ttf') format('truetype'),
-			url('./assets/fonts/subset-Jura-Regular.svg#Jura-Regular') format('svg');
+	font-family: "Jura";
+	src: url("./assets/fonts/subset-Jura-Regular.woff") format("woff"),
+		url("./assets/fonts/subset-Jura-Regular.ttf") format("truetype"),
+		url("./assets/fonts/subset-Jura-Regular.svg#Jura-Regular") format("svg");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Jura';
-	src: url('./assets/fonts/subset-Jura-SemiBold.woff') format('woff'),
-			url('./assets/fonts/subset-Jura-SemiBold.ttf') format('truetype'),
-			url('./assets/fonts/subset-Jura-SemiBold.svg#Jura-SemiBold') format('svg');
+	font-family: "Jura";
+	src: url("./assets/fonts/subset-Jura-SemiBold.woff") format("woff"),
+		url("./assets/fonts/subset-Jura-SemiBold.ttf") format("truetype"),
+		url("./assets/fonts/subset-Jura-SemiBold.svg#Jura-SemiBold") format("svg");
 	font-weight: 600;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Jura';
-	src: url('./assets/fonts/subset-Jura-Light.woff') format('woff'),
-			url('./assets/fonts/subset-Jura-Light.ttf') format('truetype'),
-			url('./assets/fonts/subset-Jura-Light.svg#Jura-Light') format('svg');
+	font-family: "Jura";
+	src: url("./assets/fonts/subset-Jura-Light.woff") format("woff"),
+		url("./assets/fonts/subset-Jura-Light.ttf") format("truetype"),
+		url("./assets/fonts/subset-Jura-Light.svg#Jura-Light") format("svg");
 	font-weight: 300;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Jura';
-	src: url('./assets/fonts/subset-Jura-Medium.woff') format('woff'),
-			url('./assets/fonts/subset-Jura-Medium.ttf') format('truetype'),
-			url('./assets/fonts/subset-Jura-Medium.svg#Jura-Medium') format('svg');
+	font-family: "Jura";
+	src: url("./assets/fonts/subset-Jura-Medium.woff") format("woff"),
+		url("./assets/fonts/subset-Jura-Medium.ttf") format("truetype"),
+		url("./assets/fonts/subset-Jura-Medium.svg#Jura-Medium") format("svg");
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
 }
 
 :root {
-	--color-body: #b8b8b8;
-	--color-heading: #fad8d1;
-	--color-base: #004c5c;
-	--color-base-2: #003742;
-	--color-brand: #ff7c5e;
-	--color-brand-2: #e9593c;
+	--color-body: #92efe6;
+	--color-heading: #f0af92;
+	--color-base: #a47864;
+	--color-base-2: #715244;
+	--color-brand: #64a39d;
+	--color-brand-2: #355653;
 	--sidebar-width: 15rem;
 	--font-base: Jura;
 }
@@ -97,10 +97,9 @@ a:hover {
 }
 
 img {
-  width: 100%; /* or max-width: 100%; */
-  height: auto;
+	width: 100%; /* or max-width: 100%; */
+	height: auto;
 }
-
 
 .text-brand {
 	color: var(--color-brand);
@@ -194,7 +193,7 @@ img {
 	.navbar {
 		min-height: 100vh;
 		width: var(--sidebar-width);
-		background: linear-gradient(rgba(3, 63, 71, 1), rgba(3, 63, 71, 0.8)),
+		background: linear-gradient(#a47864, #a47864bb),
 			url("./assets/images/background.webp");
 		/* Photo by <a href="https://unsplash.com/@achimr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Achim Ruhnau</a> on <a href="https://unsplash.com/photos/an-aerial-view-of-a-mountain-range-in-the-desert-cVNQeIJCN78?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
 		background-size: cover;
