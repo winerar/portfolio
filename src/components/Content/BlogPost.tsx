@@ -13,8 +13,9 @@ const BlogPost: React.FC<IBlogPostProps> = ({
 		<Card className="col-md-6" index={index} image={{ src: image, alt: title }}>
 			<div className="card-custom__content">
 				<p className="mb-2 text-brand">{date}</p>
-				<h3 className="h5 mb-4">{title}</h3>
-				<ExternalLink text="Read more" link={link} />
+				<h3 className="h6 mb-4">
+					<ExternalLink text={title} link={link} />
+				</h3>
 			</div>
 		</Card>
 	)

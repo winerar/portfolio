@@ -9,7 +9,9 @@ const ExternalLink: React.FC<IExternalLinkProps> = ({ text, link }) => {
 			className="d-inline-flex gap-2 align-items-center link-custom"
 		>
 			<span>{text}</span>
-			<Arrow />
+			<span>
+				<Arrow />
+			</span>
 		</a>
 	)
 }
