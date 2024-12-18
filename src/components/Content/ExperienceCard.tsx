@@ -42,7 +42,7 @@ const ExperienceCard: React.FC<IExperienceCardProps> = ({
 			{description ?? <p className="mb-0">{description}</p>}
 			{stack && (
 				<>
-					<h5 className="h6 mt-2">Stack:</h5>
+					<h5 className="h6 mt-2">Skills:</h5>
 					<p className="d-flex gap-2 flex-wrap">
 						{stack.map((item, index) => (
 							<Badge text={item} key={index} />

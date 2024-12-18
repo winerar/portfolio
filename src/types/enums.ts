@@ -24,6 +24,11 @@ export const Stack = {
 	TypeScript: "TypeScript",
 	Vite: "Vite",
 	Webpack: "Webpack",
+	CSharp: "C#",
+	DotNet: ".NET",
+	OOP: "OOP",
+	DevExpress: "DevExpress",
+	CustomerSupport: "Customer Support",
 } as const
 
 export const Months = {
