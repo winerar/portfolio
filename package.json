@@ -6,7 +6,7 @@
 	"homepage": "https://winerar.github.com/portfolio/",
 	"scripts": {
 		"deploy": "npm run build && gh-pages -d dist",
-		"dev": "vite-react-ssg dev",
+		"dev": "vite-react-ssg dev --host",
 		"build": "tsc && vite-react-ssg build",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",

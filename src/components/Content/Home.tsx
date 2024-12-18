@@ -18,9 +18,12 @@ const Home: React.FC = () => {
 						</span>
 					</h1>
 					<p className="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">
-						I love crafting creative web projects. My passion for learning and
-						creativity fuels my constant growth in this exciting field. Ready to
-						bring your ideas to life!
+						I am a dedicated Frontend React Developer with experience in
+						building dynamic and responsive web applications. Currently, I am
+						working on developing the frontend for a complex web application
+						using React and MUI. My current tech stack includes React, MUI,
+						TypeScript, Flux and Vite. Feel free to reach out if you have any
+						questions or if you are interested in collaborating on a project.
 					</p>
 					<div
 						className="d-flex flex-column flex-lg-row gap-4 align-items-center"
