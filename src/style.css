@@ -177,6 +177,13 @@ img {
 	background-color: var(--color-brand-2);
 }
 
+.navbar-nav {
+	background: linear-gradient(to left, #405978bb, var(--color-brand)),
+		url("./assets/images/vi-bg.webp");
+	background-size: cover;
+	background-position: top;
+}
+
 .navbar .nav-link {
 	font-weight: 700;
 	text-transform: uppercase;
@@ -189,7 +196,7 @@ img {
 }
 
 .navbar .active {
-	color: var(--color-base-2) !important;
+	color: var(--color-base) !important;
 	letter-spacing: 0.125rem;
 }
 
@@ -203,9 +210,12 @@ img {
 		width: var(--sidebar-width);
 		background: linear-gradient(#405978bb, var(--color-brand)),
 			url("./assets/images/vi-bg.webp");
-		/* Photo by <a href="https://unsplash.com/@achimr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Achim Ruhnau</a> on <a href="https://unsplash.com/photos/an-aerial-view-of-a-mountain-range-in-the-desert-cVNQeIJCN78?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
 		background-size: cover;
 		background-position: center;
+	}
+
+	.navbar-nav {
+		background: none;
 	}
 
 	.navbar .contribution {

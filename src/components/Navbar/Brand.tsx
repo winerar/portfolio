@@ -6,7 +6,7 @@ const Brand = () => {
 	return (
 		<BsNavbar.Brand className="mb-lg-4 mx-lg-auto" href="/">
 			<span className="h4 fw-bold d-lg-none">
-				<Logo className="icon-big me-1" />
+				<Logo className="icon-big m-2" />
 				<span>{profile.fullName}</span>
 			</span>
 			<img

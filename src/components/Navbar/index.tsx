@@ -4,6 +4,7 @@ import NavList from "./NavList"
 import BsNavbar from "react-bootstrap/Navbar"
 import { useState } from "react"
 import Icon from "../../assets/icons/bars-solid.svg?react"
+import Logo from "../../assets/icons/logo-dark.svg?react"
 
 const Navbar: React.FC = () => {
 	const [expanded, setExpanded] = useState(false)
@@ -12,10 +13,10 @@ const Navbar: React.FC = () => {
 		<BsNavbar
 			fixed="top"
 			expand="lg"
-			className="navbar-dark full-width"
+			className="navbar-dark full-width p-0 p-lg-3"
 			expanded={expanded}
 		>
-			<Container className="flex-lg-column">
+			<Container className="flex-lg-column p-0">
 				<Brand />
 				<BsNavbar.Toggle
 					data-toggle="collapse"
@@ -31,6 +32,9 @@ const Navbar: React.FC = () => {
 				<BsNavbar.Collapse id="navbarNav" onClick={() => setExpanded(false)}>
 					<NavList />
 				</BsNavbar.Collapse>
+				<div className="h4 fw-bold d-none d-lg-block">
+					<Logo className="icon-big mx-2" />
+				</div>
 			</Container>
 		</BsNavbar>
 	)

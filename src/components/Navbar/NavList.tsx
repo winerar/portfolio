@@ -13,7 +13,7 @@ const NavList: React.FC = () => {
 	}
 
 	return (
-		<Nav className="ms-auto flex-lg-column text-lg-center">
+		<Nav className="ms-auto flex-lg-column text-lg-center p-2 ps-5 ps-lg-2">
 			{navLinks.map((item, index) => (
 				<Nav.Link href={item.path} key={index} active={isActive(item.path)}>
 					{item.name}
