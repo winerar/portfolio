@@ -17,18 +17,20 @@ const Navbar: React.FC = () => {
 			expanded={expanded}
 		>
 			<Container className="flex-lg-column p-0">
-				<Brand />
-				<BsNavbar.Toggle
-					data-toggle="collapse"
-					data-target="#navbarNav"
-					aria-controls="navbarNav"
-					aria-expanded="false"
-					label="Toggle navigation"
-					className="border-0 px-1 d-flex d-lg-none flex-column justify-content-around"
-					onClick={() => setExpanded(!expanded)}
-				>
-					<Icon className="navbar-toggler-icon" />
-				</BsNavbar.Toggle>
+				<Container className="d-flex p-2">
+					<Brand />
+					<BsNavbar.Toggle
+						data-toggle="collapse"
+						data-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						label="Toggle navigation"
+						className="border-0 px-1 d-flex d-lg-none flex-column justify-content-around"
+						onClick={() => setExpanded(!expanded)}
+					>
+						<Icon className="navbar-toggler-icon" />
+					</BsNavbar.Toggle>
+				</Container>
 				<BsNavbar.Collapse id="navbarNav" onClick={() => setExpanded(false)}>
 					<NavList />
 				</BsNavbar.Collapse>

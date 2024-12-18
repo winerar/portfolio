@@ -4,9 +4,9 @@ import Logo from "../../assets/icons/logo-dark.svg?react"
 
 const Brand = () => {
 	return (
-		<BsNavbar.Brand className="mb-lg-4 mx-lg-auto" href="/">
+		<BsNavbar.Brand className="mb-lg-4 mx-lg-auto me-auto" href="/">
 			<span className="h4 fw-bold d-lg-none">
-				<Logo className="icon-big m-2" />
+				<Logo className="icon-big me-2" />
 				<span>{profile.fullName}</span>
 			</span>
 			<img
