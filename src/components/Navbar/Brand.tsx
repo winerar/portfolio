@@ -1,5 +1,5 @@
 import { profile } from "../../constants"
-import BsNavbar from "react-bootstrap/Navbar"
+import { Navbar as BsNavbar } from "react-bootstrap"
 import Logo from "../../assets/icons/logo-dark.svg?react"
 
 const Brand = () => {

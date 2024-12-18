@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap"
 import Brand from "./Brand"
 import NavList from "./NavList"
-import BsNavbar from "react-bootstrap/Navbar"
+import { Navbar as BsNavbar } from "react-bootstrap"
 import { useState } from "react"
 import Icon from "../../assets/icons/bars-solid.svg?react"
 import Logo from "../../assets/icons/logo-dark.svg?react"

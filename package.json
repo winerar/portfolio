@@ -6,8 +6,8 @@
 	"homepage": "https://winerar.github.com/portfolio/",
 	"scripts": {
 		"deploy": "npm run build && gh-pages -d dist",
-		"dev": "vite --host",
-		"build": "tsc && vite build",
+		"dev": "vite-react-ssg dev",
+		"build": "tsc && vite-react-ssg build",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
 		"postbuild": "purgecss --config ./purgecss.config.cjs"
@@ -19,7 +19,8 @@
 		"react": "^19.0.0",
 		"react-bootstrap": "^2.9.1",
 		"react-dom": "^19.0.0",
-		"react-router-dom": "^6.21.0"
+		"react-router-dom": "^6.21.0",
+		"vite-react-ssg": "^0.8.2"
 	},
 	"devDependencies": {
 		"@fullhuman/postcss-purgecss": "^5.0.0",
