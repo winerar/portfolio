@@ -1,10 +1,11 @@
+import React, { lazy, Suspense, useState } from "react"
 import { Container } from "react-bootstrap"
-import Brand from "./Brand"
-import NavList from "./NavList"
 import { Navbar as BsNavbar } from "react-bootstrap"
-import { useState } from "react"
 import Icon from "../../assets/icons/bars-solid.svg?react"
 import Logo from "../../assets/icons/logo-dark.svg?react"
+
+const Brand = lazy(() => import("./Brand"))
+const NavList = lazy(() => import("./NavList"))
 
 const Navbar: React.FC = () => {
 	const [expanded, setExpanded] = useState(false)
@@ -18,7 +19,9 @@ const Navbar: React.FC = () => {
 		>
 			<Container className="flex-lg-column p-0">
 				<Container className="d-flex p-2">
-					<Brand />
+					<Suspense fallback={<div>Loading...</div>}>
+						<Brand />
+					</Suspense>
 					<BsNavbar.Toggle
 						data-toggle="collapse"
 						data-target="#navbarNav"
@@ -32,7 +35,9 @@ const Navbar: React.FC = () => {
 					</BsNavbar.Toggle>
 				</Container>
 				<BsNavbar.Collapse id="navbarNav" onClick={() => setExpanded(false)}>
-					<NavList />
+					<Suspense fallback={<div>Loading...</div>}>
+						<NavList />
+					</Suspense>
 				</BsNavbar.Collapse>
 				<div className="h4 fw-bold d-none d-lg-block">
 					<Logo className="icon-big mx-2" />
