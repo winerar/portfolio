@@ -6,4 +6,23 @@ import svgr from "vite-plugin-svgr"
 export default defineConfig({
 	plugins: [react(), svgr()],
 	base: "./",
+	build: {
+		cssCodeSplit: false,
+		rollupOptions: {
+			output: {
+				chunkFileNames: "assets/js/[name]-[hash].js",
+				entryFileNames: "assets/js/[name]-[hash].js",
+				assetFileNames: "assets/[ext]/[name].[ext]",
+				manualChunks: (id: string) => {
+					if (id.indexOf("node_modules") !== -1) {
+						return id
+							.toString()
+							.split("node_modules/")[1]
+							.split("/")[0]
+							.toString()
+					}
+				},
+			},
+		},
+	},
 })
