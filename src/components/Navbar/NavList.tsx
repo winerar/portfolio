@@ -1,6 +1,6 @@
 import { Nav } from "react-bootstrap"
-import { navLinks } from "../../constants"
 import { useLocation } from "react-router-dom"
+import { navLinks } from "../../constants"
 
 const NavList: React.FC = () => {
 	const location = useLocation()

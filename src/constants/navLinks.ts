@@ -1,8 +1,11 @@
+import { useLingui } from "@lingui/react"
 import { INavLink } from "../types"
+
+const { i18n } = useLingui()
 
 export const navLinks: Array<INavLink> = [
 	{
-		name: "Home",
+		name: i18n._("Home"),
 		path: "#home",
 	},
 	// {

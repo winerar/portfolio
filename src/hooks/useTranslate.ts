@@ -3,7 +3,7 @@ import { useCallback } from "react"
 
 const useTranslate = () => {
 	const { i18n } = useLingui()
-	const t = useCallback((key: string) => i18n._(key), [])
+	const t = useCallback((key: string) => i18n._(key), [i18n])
 
 	return { t }
 }

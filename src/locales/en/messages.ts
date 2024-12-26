@@ -1,1 +1,1 @@
-/*eslint-disable*/import type{Messages}from"@lingui/core";export const messages=JSON.parse("{\"uyJsf6\":[\"About\"]}")as Messages;
+/*eslint-disable*/import type{Messages}from"@lingui/core";export const messages=JSON.parse("{\"Home\":[\"Home\"],\"My Education & Experience\":[\"My Education & Experience\"],\"About\":[\"About\"],\"Experience\":[\"Experience\"],\"Education\":[\"Education\"]}")as Messages;
