@@ -22,7 +22,7 @@ i18n.load({
 	en: enMessages,
 	ru: ruMessages,
 })
-i18n.activate("en")
+i18n.activate("ru")
 
 const App: React.FC = () => {
 	const [router, setRouter] = useState<any>(null)
