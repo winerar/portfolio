@@ -8,11 +8,12 @@ const useTranslate = () => {
 	const t = useCallback(
 		(
 			key: string,
+			suffix?: string,
 			values?: Record<
 				string,
 				PrimitiveType | FormatXMLElementFn<string, string>
 			>
-		) => formatMessage({ id: key }, values),
+		) => formatMessage({ id: `${key}${suffix ? `.${suffix}` : ""}` }, values),
 		[formatMessage]
 	)
 
