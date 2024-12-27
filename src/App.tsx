@@ -20,6 +20,10 @@ import Main from "./pages/Main"
 const App: React.FC = () => {
 	const [router, setRouter] = useState<any>(null)
 
+	const locales: { [key: string]: any } = { en, ru }
+	const locale = "ru" // set the current locale
+	const messages = locales[locale] // get the translations for the locale
+
 	useEffect(() => {
 		if (typeof document !== "undefined") {
 			aos.init({
@@ -78,10 +82,10 @@ const App: React.FC = () => {
 
 	return (
 		<IntlProvider
-			messages={{ ...en, ...ru }}
-			locale="en"
+			messages={{ ...messages }}
+			locale={locale}
 			defaultLocale="en"
-			key="en"
+			key={locale}
 		>
 			<RouterProvider router={router} />
 		</IntlProvider>
