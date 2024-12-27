@@ -1,9 +1,20 @@
 {
+	"Developing frontend for ARES Kudo using React and MUI.": "Developing frontend for ARES Kudo using React and MUI.",
+	"Developed a hotel booking website.": "Developed a hotel booking website.",
+	"I developed and maintained a website for a product company that develops applications for Apple Watch.": "I developed and maintained a website for a product company that develops applications for Apple Watch.",
+	"Frontend developing using React+Redux+TS as well as HTML+CSS+JS for customers. Check my GitHub to see completed projects.": "Frontend developing using React+Redux+TS as well as HTML+CSS+JS for customers. Check my GitHub to see completed projects.",
+	"Customer Support in English. I Provided recommendations to customers on using the company's products to solve specific tasks. Wrote bug reports and address issues. Demonstrated the product's functionality to users using personal demo projects.": "Customer Support in English. I Provided recommendations to customers on using the company's products to solve specific tasks. Wrote bug reports and address issues. Demonstrated the product's functionality to users using personal demo projects.",
+
+	"Why Youtube Tutorials Suck and Why It's Good": "Why Youtube Tutorials Suck and Why It's Good",
+	"How to Enjoy Windows or Microsoft PowerToys": "How to Enjoy Windows or Microsoft PowerToys (in Russian)",
+
 	"My Education & Experience": "My Education & Experience",
 	"About": "About",
 	"Experience": "Experience",
 	"Education": "Education",
 	"Skills": "Skills",
+	"Latest Blog Posts": "Latest Blog Posts",
+	"Blog": "Blog",
 
 	"Frontend React Developer": "Frontend React Developer",
 	"React Web Engineer": "React Web Engineer",
@@ -11,12 +22,6 @@
 	".NET Support Developer": ".NET Support Developer",
 	"Master of Information Systems and Technologies": "Master of Information Systems and Technologies",
 	"Bachelor of Applied Mathematics and Informatics": "Bachelor of Applied Mathematics and Informatics",
-
-	"Developing frontend for ARES Kudo using React and MUI.": "Developing frontend for ARES Kudo using React and MUI.",
-	"Developed a hotel booking website.": "Developed a hotel booking website.",
-	"I developed and maintained a website for a product company that develops applications for Apple Watch.": "I developed and maintained a website for a product company that develops applications for Apple Watch.",
-	"Frontend developing using React+Redux+TS as well as HTML+CSS+JS for customers. Check my GitHub to see completed projects.": "Frontend developing using React+Redux+TS as well as HTML+CSS+JS for customers. Check my GitHub to see completed projects.",
-	"Customer Support in English. I Provided recommendations to customers on using the company's products to solve specific tasks. Wrote bug reports and address issues. Demonstrated the product's functionality to users using personal demo projects.": "Customer Support in English. I Provided recommendations to customers on using the company's products to solve specific tasks. Wrote bug reports and address issues. Demonstrated the product's functionality to users using personal demo projects.",
 
 	"Gräbert GmbH": "Gräbert GmbH",
 	"MetaLamp": "MetaLamp",
@@ -40,7 +45,6 @@
 	"Feb": "Feb",
 	"Mar": "Mar",
 	"Apr": "Apr",
-	"May": "May",
 	"Jun": "Jun",
 	"Jul": "Jul",
 	"Aug": "Aug",
@@ -48,6 +52,18 @@
 	"Oct": "Oct",
 	"Nov": "Nov",
 	"Dec": "Dec",
+
+	"January": "January",
+	"February": "February",
+	"March": "March",
+	"April": "April",
+	"May": "May",
+	"June": "June",
+	"July": "July",
+	"August": "August",
+	"September": "September",
+	"October": "October",
+	"November": "November",
 
 	"present": "present"
 }
