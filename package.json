@@ -19,6 +19,7 @@
 		"react": "^19.0.0",
 		"react-bootstrap": "^2.9.1",
 		"react-dom": "^19.0.0",
+		"react-intl": "^7.0.4",
 		"react-router-dom": "^6.21.0",
 		"vite-react-ssg": "^0.8.2"
 	},

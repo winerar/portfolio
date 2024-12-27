@@ -3,6 +3,9 @@ import "react-bootstrap"
 import "aos/dist/aos.css"
 import { useEffect, useState } from "react"
 import aos from "aos"
+import { IntlProvider } from "react-intl"
+import en from "./locales/en.json"
+import ru from "./locales/ru.json"
 import "./style.css"
 import { RouterProvider, createHashRouter } from "react-router-dom"
 import Home from "./components/Content/Home"
@@ -73,7 +76,16 @@ const App: React.FC = () => {
 		return null // or a loading spinner
 	}
 
-	return <RouterProvider router={router} />
+	return (
+		<IntlProvider
+			messages={{ ...en, ...ru }}
+			locale="en"
+			defaultLocale="en"
+			key="en"
+		>
+			<RouterProvider router={router} />
+		</IntlProvider>
+	)
 }
 
 export default App

@@ -1,14 +1,19 @@
 import { education, experience } from "../../constants"
+import useTranslate from "../../hooks/useTranslate"
 import Section from "../common/Section"
 import ExperienceList from "./ExperienceList"
 
 const About: React.FC = () => {
+	const { t } = useTranslate()
 	return (
 		<Section id="about">
-			<Section.Header title="My Education & Experience" subtitle="About" />
+			<Section.Header
+				title={t("My Education & Experience")}
+				subtitle={t("About")}
+			/>
 			<div className="row gy-5">
-				<ExperienceList title="Experience" items={experience} />
-				<ExperienceList title="Education" items={education} />
+				<ExperienceList title={t("Experience")} items={experience} />
+				<ExperienceList title={t("Education")} items={education} />
 			</div>
 		</Section>
 	)

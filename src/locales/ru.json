@@ -1,0 +1,53 @@
+{
+	"My Education & Experience": "Моё образование и опыт",
+	"About": "Обо мне",
+	"Experience": "Опыт",
+	"Education": "Образование",
+	"Skills": "Навыки",
+
+	"Frontend React Developer": "Frontend React Developer",
+	"React Web Engineer": "React Web Engineer",
+	"Frontend Developer": "Frontend Developer",
+	".NET Support Developer": ".NET Support Developer",
+	"Master of Information Systems and Technologies": "Информационные системы и технологии, магистр",
+	"Bachelor of Applied Mathematics and Informatics": "Прикладная математика и информатика, бакалавр",
+
+	"Developing frontend for ARES Kudo using React and MUI.": "Разрабатываю фронтенд для ARES Kudo с использованием React и MUI.",
+	"Developed a hotel booking website.": "Разработал сайт для бронирования отелей.",
+	"I developed and maintained a website for a product company that develops applications for Apple Watch.": "Я разрабывал и поддерживал сайт для продуктовой компании, которая разрабатывает приложения для Apple Watch.",
+	"Frontend developing using React+Redux+TS as well as HTML+CSS+JS for customers. Check my GitHub to see completed projects.": "Фронтенд-разработка с использованием React+Redux+TS, а также HTML+CSS+JS для клиентов. Посмотрите мои завершенные проекты на GitHub.",
+	"Customer Support in English. I Provided recommendations to customers on using the company's products to solve specific tasks. Wrote bug reports and address issues. Demonstrated the product's functionality to users using personal demo projects.": "Поддержка клиентов на английском языке. Я предоставлял рекомендации клиентам по использованию продуктов компании для решения конкретных задач. Писал отчеты об ошибках и решал проблемы. Демонстрировал функциональность продукта пользователям, используя свои демонстрационные проекты.",
+
+	"Gräbert GmbH": "Gräbert GmbH",
+	"MetaLamp": "MetaLamp",
+	"Freelance": "Фриланс",
+	"Martspec LLC": "Martspec LLC",
+	"Developer Express Inc.": "Developer Express Inc.",
+	"North-Caucasus Federal University": "Северо-Кавказский федеральный университет",
+
+	"Germany": "Германия",
+	"Russia": "Россия",
+	"USA": "США",
+	"Armenia": "Армения",
+
+	"Berlin": "Берлин",
+	"Remote": "Удаленно",
+	"Stavropol": "Ставрополь",
+	"Austin": "Остин",
+	"Yerevan": "Ереван",
+
+	"Jan": "Янв",
+	"Feb": "Фев",
+	"Mar": "Мар",
+	"Apr": "Апр",
+	"May": "Май",
+	"Jun": "Июн",
+	"Jul": "Июл",
+	"Aug": "Авг",
+	"Sep": "Сен",
+	"Oct": "Окт",
+	"Nov": "Ноя",
+	"Dec": "Дек",
+
+	"present": "н. в."
+}

@@ -1,0 +1,53 @@
+{
+	"My Education & Experience": "My Education & Experience",
+	"About": "About",
+	"Experience": "Experience",
+	"Education": "Education",
+	"Skills": "Skills",
+
+	"Frontend React Developer": "Frontend React Developer",
+	"React Web Engineer": "React Web Engineer",
+	"Frontend Developer": "Frontend Developer",
+	".NET Support Developer": ".NET Support Developer",
+	"Master of Information Systems and Technologies": "Master of Information Systems and Technologies",
+	"Bachelor of Applied Mathematics and Informatics": "Bachelor of Applied Mathematics and Informatics",
+
+	"Developing frontend for ARES Kudo using React and MUI.": "Developing frontend for ARES Kudo using React and MUI.",
+	"Developed a hotel booking website.": "Developed a hotel booking website.",
+	"I developed and maintained a website for a product company that develops applications for Apple Watch.": "I developed and maintained a website for a product company that develops applications for Apple Watch.",
+	"Frontend developing using React+Redux+TS as well as HTML+CSS+JS for customers. Check my GitHub to see completed projects.": "Frontend developing using React+Redux+TS as well as HTML+CSS+JS for customers. Check my GitHub to see completed projects.",
+	"Customer Support in English. I Provided recommendations to customers on using the company's products to solve specific tasks. Wrote bug reports and address issues. Demonstrated the product's functionality to users using personal demo projects.": "Customer Support in English. I Provided recommendations to customers on using the company's products to solve specific tasks. Wrote bug reports and address issues. Demonstrated the product's functionality to users using personal demo projects.",
+
+	"Gräbert GmbH": "Gräbert GmbH",
+	"MetaLamp": "MetaLamp",
+	"Freelance": "Freelance",
+	"Martspec LLC": "Martspec LLC",
+	"Developer Express Inc.": "Developer Express Inc.",
+	"North-Caucasus Federal University": "North-Caucasus Federal University",
+
+	"Germany": "Germany",
+	"Russia": "Russia",
+	"USA": "USA",
+	"Armenia": "Armenia",
+
+	"Berlin": "Berlin",
+	"Remote": "Remote",
+	"Stavropol": "Stavropol",
+	"Austin": "Austin",
+	"Yerevan": "Yerevan",
+
+	"Jan": "Jan",
+	"Feb": "Feb",
+	"Mar": "Mar",
+	"Apr": "Apr",
+	"May": "May",
+	"Jun": "Jun",
+	"Jul": "Jul",
+	"Aug": "Aug",
+	"Sep": "Sep",
+	"Oct": "Oct",
+	"Nov": "Nov",
+	"Dec": "Dec",
+
+	"present": "present"
+}
